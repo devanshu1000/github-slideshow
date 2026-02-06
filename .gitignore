@@ -1,4 +1,78 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-.bundle
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.vscode/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The Python implementation of HTTP server
+__pycache__/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/generated/
+**/android/gen/
+**/android/out/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.lsplugin/
+**/ios/**/DerivedData/
+**/ios/**/xcshareddata/
+**/ios/**/xcschemes/
+**/ios/**/xcdebugger/
+**/ios/**/project.xcworkspace/
+**/ios/**/xcuserdata/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.[mh]
+
+# Windows related
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_config.cmake
+
+# Linux related
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_config.cmake
+
+# macOS related
+**/macos/flutter/ephemeral/
+**/macos/flutter/generated_config.cmake
+
+# Exceptions to above rules.
+!**/ios/Runner/ServiceDefinitions.json
